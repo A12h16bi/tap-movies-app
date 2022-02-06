@@ -16,11 +16,11 @@ function SearchBar({
 
     return (
         <div className="d-flex justify-content-around">
-            <Form.Control type="text" className="m-2" placeholder="Search for movies you want..."
+            <Form.Control type="text" className="me-2" placeholder="Search for movies you want..."
                 onChange={onChangeSearchText}
                 onKeyPress={onKeyPressSearchText}
             />
-            <Button variant="primary" className="me-2" onClick={onClickRefresh}>Search</Button>
+            <Button variant="primary" className="m-2" onClick={onClickRefresh}>Search</Button>
             <Button variant="success" className="m-2" onClick={onClickRefresh}>Refresh</Button>
         </div>
     )
